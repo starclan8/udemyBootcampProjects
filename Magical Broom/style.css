@@ -1,0 +1,28 @@
+
+body {
+    padding: 50px;
+}
+
+#container {
+    background-color: skyblue;
+    height: 300px;
+    text-align: center;
+}
+
+#broom {
+    animation-name: fly;
+    animation-duration: 2000ms;
+    animation-iteration-count: infinite;
+}
+
+@keyframes fly {
+    0% {
+        transform: translateY(20px);
+    }
+    50% {
+        transform: translateY(60px);
+    }
+    100% {
+        transform: translateY(20px);
+    }
+}
